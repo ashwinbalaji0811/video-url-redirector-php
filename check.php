@@ -18,7 +18,7 @@ include "SimpleXLSX.php";
   }
 
   if ($i == 0) {
-    echo "Wrong Password! Please check your password else contact us at contact@theskillcraft.com";
+    header("Location: /error.html");
   }
 
 ?>
