@@ -18,7 +18,7 @@ include "SimpleXLSX.php";
   }
 
   if ($i == 0) {
-    header("Location: /error.html");
+    header("Location: error.html");
   }
 
 ?>
